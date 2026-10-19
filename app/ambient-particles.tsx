@@ -21,9 +21,11 @@ export default function AmbientParticles() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
   useEffect(() => {
-    const canvas = canvasRef.current;
-    const context = canvas?.getContext("2d");
-    if (!canvas || !context) return;
+    const element = canvasRef.current;
+    const renderingContext = element?.getContext("2d");
+    if (!element || !renderingContext) return;
+    const canvas = element;
+    const context = renderingContext;
 
     const cfg = {
       innerRadius: 30,

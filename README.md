@@ -11,7 +11,13 @@ npm ci
 npm run dev
 ```
 
-Open the local address printed in the terminal. Create the local Worker build with `npm run build`, then run it with `npm start`. Vercel uses `pnpm run build:vercel` to create the standard Next.js deployment output.
+Open the local address printed in the terminal. Create the production build with `npm run build`, then run it with `npm start`.
+
+## Deploy to Vercel
+
+Import the GitHub repository and deploy the latest commit on `main`. The tracked `vercel.json` selects Next.js, runs `pnpm run build`, and uses the `.next` output directory. Redeploying an older deployment uses its original commit, so select the latest commit when deploying these changes.
+
+The Next.js build uses `tsconfig.next.json` to check the portfolio and its imported modules. The local Worker tooling retains `tsconfig.json` and can be built separately with `npm run build:worker`.
 
 ## Project structure
 
@@ -32,6 +38,8 @@ Open the local address printed in the terminal. Create the local Worker build wi
 ## Scripts
 
 - `npm run dev` starts the local development server.
-- `npm run build` creates the production build.
-- `npm start` serves the built Worker locally.
+- `npm run build` creates the Next.js production build for Vercel.
+- `npm start` serves the Next.js production build locally.
+- `npm run build:worker` creates the alternative Worker build.
+- `npm run start:worker` serves the built Worker locally.
 - `npm run lint` runs ESLint.

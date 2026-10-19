@@ -1,5 +1,5 @@
 import { Award, BookOpen, Globe, Leaf, Sparkles, Users } from "lucide-react";
-import HeroSection from "./hero-section.tsx";
+import HeroSection from "./hero-section";
 import ProjectsSection from "./projects-section";
 import SiteHeader from "./site-header";
 

@@ -11,7 +11,7 @@ npm ci
 npm run dev
 ```
 
-Open the local address printed in the terminal. Create a production build with `npm run build`. Run the built Worker locally with `npm start`.
+Open the local address printed in the terminal. Create the local Worker build with `npm run build`, then run it with `npm start`. Vercel uses `pnpm run build:vercel` to create the standard Next.js deployment output.
 
 ## Project structure
 

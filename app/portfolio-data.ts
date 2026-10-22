@@ -323,24 +323,6 @@ const projectEntries: Project[] = [
     ]
   },
   {
-    "title": "Intangible Cultural Heritage Screening",
-    "category": "Research & learning",
-    "year": "2026",
-    "date": "13 March 2026",
-    "tag": "Documentary & cultural heritage",
-    "tone": "lilac",
-    "word": "DOCUMENT",
-    "summary": "Engaging with student documentaries and thoughtful approaches to cultural documentation.",
-    "detail": "I attended a documentary screening presented by first-year students as part of their Intangible Cultural Heritage course assessment. Panelists Dr. Dinindu Dewapura and Ms. Chathuri Gunathilaka discussed the need for respectful, thoughtful documentation grounded in a deep understanding of traditions and their cultural significance. The session expanded my understanding of socio-cultural documentation methods and gave me an opportunity to appreciate the work of fellow students.",
-    "images": [],
-    "cover": null,
-    "skills": [
-      "Cultural documentation",
-      "Critical engagement",
-      "Respect for heritage"
-    ]
-  },
-  {
     "title": "FINAURA · A Farewell to Remember",
     "category": "Campus & culture",
     "year": "2026",
@@ -1027,27 +1009,6 @@ const projectEntries: Project[] = [
       "Leadership",
       "Communication",
       "Collaboration"
-    ]
-  },
-  {
-    "title": "G17 University Ambassadors Consortium",
-    "category": "G17 Program",
-    "year": "University journey",
-    "date": "GWUIM FISSMS",
-    "tag": "Sustainable Development Goals",
-    "tone": "lilac",
-    "word": "ACT",
-    "summary": "Learning about the Sustainable Development Goals and student-led action through the G17 consortium.",
-    "detail": "I joined the G17 University Ambassadors consortium at GWUIM FISSMS. Through the program I learned about the Sustainable Development Goals and projects led by the ambassadors. Serving as an SDG 16 Ambassador gave me opportunities to contribute to university and community initiatives.",
-    "images": [
-      "/images/projects/g17-ambassadors-01.webp",
-      "/images/projects/ppt-slide-17-01.webp"
-    ],
-    "cover": "/images/projects/g17-ambassadors-01.webp",
-    "skills": [
-      "SDG awareness",
-      "Student leadership",
-      "Community action"
     ]
   }
 ];

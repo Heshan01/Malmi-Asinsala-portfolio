@@ -220,23 +220,6 @@ const projectEntries: Project[] = [
     ]
   },
   {
-    "title": "Cine Ru Kalpana 2026",
-    "category": "Campus & culture",
-    "year": "2026",
-    "date": "27 January 2026",
-    "tag": "Film & cultural engagement",
-    "tone": "gold",
-    "word": "REFLECT",
-    "summary": "Exploring storytelling and enjoying a shared film experience with fellow students.",
-    "detail": "I attended Cine Ru Kalpana 2026, a three-day film festival organized by the faculty’s Art and Literature Sub-Committee. On 27 January, I watched the Tamil film “Madharasi” with other students. The occasion offered an opportunity to engage with storytelling, relax, and share an enjoyable cultural experience.",
-    "images": [],
-    "cover": null,
-    "skills": [
-      "Cultural engagement",
-      "Reflection"
-    ]
-  },
-  {
     "title": "Thai Pongal Celebration",
     "category": "Campus & culture",
     "year": "2026",

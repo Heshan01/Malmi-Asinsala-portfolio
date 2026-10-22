@@ -1,6 +1,35 @@
 export type Project = { title: string; category: string; year: string; date: string; tag: string; tone: string; word: string; summary: string; detail: string; images: string[]; cover: string | null; skills: string[] };
 const projectEntries: Project[] = [
   {
+    "title": "Vakarai Business Anthropology Field Study",
+    "category": "Research & learning",
+    "year": "2026",
+    "date": "9 September 2026",
+    "tag": "Business anthropology · Field research",
+    "tone": "lilac",
+    "word": "DISCOVER",
+    "summary": "Exploring Vakarai’s cultural assets, indigenous knowledge, and traditional livelihoods to support sustainable community enterprise.",
+    "detail": "The Department of Indigenous Social Sciences (DISS) successfully conducted a field study in the Vakarai (Vaharai) area of the Batticaloa District under the subject of Business Anthropology for the 4th Year students. The main purpose of the study was to identify the cultural assets available in the region such as traditional livelihoods, indigenous knowledge, local customs, and heritage practices that hold business anthropological value. The study also explored practical ways to strategically utilise these cultural resources to create sustainable livelihoods for the local community, improve market visibility for their products and services, and generate economic benefits that contribute to both the community and the country. The field study was carried out under the guidance of Dr. Dinindu Dewapura, Ms. Chinthani Senevirathna (Head of Department, DISS), Ms. Chathuri Gunathilaka, and Ms. Akeedha Nilawdeen, who provided academic supervision and research coordination throughout the process. Furthermore, we would like to extend our sincere thanks to Mr. Sachith Amarasinghe, Inspector of Police and Officer in Charge of the Vakarai Police Station, for facilitating our access to the research area and providing police protection. Special thanks are extended to Dr. Kamalika Jayathilaka, Dean of the Faculty of Indigenous Social Sciences and Management Studies (FISSMS), for her invaluable support and encouragement in making this research initiative a success.",
+    "images": [
+      "/images/projects/vakarai-field-study-01.png",
+      "/images/projects/vakarai-field-study-02.png",
+      "/images/projects/vakarai-field-study-03.png",
+      "/images/projects/vakarai-field-study-04.png",
+      "/images/projects/vakarai-field-study-05.png",
+      "/images/projects/vakarai-field-study-06.png",
+      "/images/projects/vakarai-field-study-07.png",
+      "/images/projects/vakarai-field-study-08.png",
+      "/images/projects/vakarai-field-study-09.png"
+    ],
+    "cover": "/images/projects/vakarai-field-study-01.png",
+    "skills": [
+      "Business anthropology",
+      "Cultural asset mapping",
+      "Community engagement",
+      "Sustainable livelihoods"
+    ]
+  },
+  {
     "title": "Unity for Tomorrow",
     "category": "G17 Program",
     "year": "2025",
@@ -211,8 +240,11 @@ const projectEntries: Project[] = [
     "word": "UNDERSTAND",
     "summary": "Speaking with residents to understand local needs and social challenges.",
     "detail": "I participated in a social mobilization research activity in the Morupola Hetewaththa area, organized by our faculty and university. Conversations with villagers helped me understand issues affecting their community, including economic difficulties and wider social concerns. The experience developed my practical data collection and communication skills.",
-    "images": [],
-    "cover": null,
+    "images": [
+      "/images/projects/social-mobilization-research-01.jpeg",
+      "/images/projects/social-mobilization-research-02.jpeg"
+    ],
+    "cover": "/images/projects/social-mobilization-research-01.jpeg",
     "skills": [
       "Field research",
       "Data collection",
